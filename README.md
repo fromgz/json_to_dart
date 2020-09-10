@@ -22,11 +22,11 @@ This library is designed to generate Flutter friendly model classes following th
 ```
 
 
-install:
+## Install
 
 dev_dependencies:
-  json_to_dart: "^0.7.5"
-  
+  json_to_dart: ^0.0.1
+
   
 flutter pub get
 flutter pub run json_to_dart -p json -o lib/model

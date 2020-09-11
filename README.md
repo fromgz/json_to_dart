@@ -14,7 +14,7 @@
 dev_dependencies:
   json_to_dart:
     git:
-      url: git://https://github.com/fromgz/json_to_dart.git
+      url: https://github.com/fromgz/json_to_dart.git
 ```
 
 设置完成后，在项目根目录下创建源目录，如json,把需要生成dart类的json文件放入目录中，指定放置dart类的目标目录，如lib/model，运行以下命令

@@ -73,8 +73,7 @@ String under2camel(String s){
   String separator = "_";
   String under = "";
   List<String> sList = s.split(separator);
-  for(int i=0; i<sList.length; i++)
-  {
+  for(int i=0; i<sList.length; i++) {
     String w = "${sList[i].substring(0,1).toUpperCase()}${sList[i].substring(1)}";
     under +=w;
   }

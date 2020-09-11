@@ -1,8 +1,8 @@
 name: json_to_dart
 version: 0.0.1
-author:
-description: A library that generates Dart classes (parse and generator included) from a json string.
-homepage:
+author: liu<228669797@qq.com>
+description: Read the JSON file and generate dart class to the specified directory.
+homepage: https://github.com/fromgz/json_to_dart
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
